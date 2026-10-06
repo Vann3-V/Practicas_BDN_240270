@@ -29,69 +29,19 @@ from mysql.role_edges order by TO_USER, FROM_USER;
 SHOW PROCEDURE STATUS WHERE Db= 'db_test_7b';
 
 
-/*10? */
-SELECT
-    u.nickname,
-    u.email,
-    b.db_user AS inserted_by,
-    GROUP_CONCAT(
-        DISTINCT re.FROM_USER
-        ORDER BY re.FROM_USER
-        SEPARATOR ', '
-    ) AS roles,
-    b.table_operation,
-    b.operation_date
-FROM tb_users u
-JOIN tb_logs b
-    ON b.table_description LIKE CONCAT('%', u.nickname, '%')
-    AND b.table_operation LIKE CONCAT('%', u.email, '%')
-LEFT JOIN mysql.role_edges re
-    ON re.TO_USER = SUBSTRING_INDEX(b.db_user, '@', 1)
-WHERE b.table_operation = 'Create'
-  AND b.table_name = 'tb_users'
-GROUP BY 
-    u.nickname, 
-    u.email,
-    b.db_user, 
-    b.table_description, 
-    b.table_operation,
-    b.operation_date 
-ORDER BY b.operation_date ASC;
+/* 10. Verificación de productos */
+SELECT * FROM tb_products;
 
+/* 11. Contabilizar los productos */
+SELECT COUNT(*) AS total_productos FROM tb_products;
 
-/*11 */
-SELECT 
-    p.id,
-    p.name,
-    p.description,
-    b.db_user AS inserted_by,
-    COALESCE(
-        GROUP_CONCAT(
-            DISTINCT re.FROM_USER
-            ORDER BY re.FROM_USER
-            SEPARATOR ', '
-        ), 
-        'no hay roles bro'
-    ) AS roles,
-    b.table_operation,
-    b.operation_date
-FROM tb_products p
-LEFT JOIN tb_logs b 
-    ON b.table_name = 'tb_products'
-   AND b.table_operation = 'Create'
-   AND (
-       b.table_description LIKE CONCAT('%ID=', p.id, '%')
-    OR b.table_description LIKE CONCAT('%id=', p.id, '%')
-    OR b.table_description LIKE CONCAT('%', p.name, '%')
-    OR b.table_description LIKE CONCAT('%', p.SKU, '%')
-   )
-LEFT JOIN mysql.role_edges re
-    ON re.TO_USER = SUBSTRING_INDEX(b.db_user, '@', 1)
-GROUP BY 
-    p.id, 
-    p.name, 
-    p.description, 
-    b.db_user, 
-    b.table_description, 
-    b.table_operation, 
-    b.operation_date;
+/* 12. Trazabilidad de los productos */
+SELECT * FROM vw_trazabilidad_productos ORDER BY operation_date DESC LIMIT 10;
+
+/* 13. Trazabilidad de usuarios */
+SELECT * FROM vw_trazabilidad_usuarios ORDER BY operation_date ASC;
+
+/* 14. Cuántos productos insertó cada usuario */
+SELECT COUNT(*) AS total_productos, vp.inserted_by
+FROM vw_trazabilidad_productos vp
+GROUP BY vp.inserted_by;
