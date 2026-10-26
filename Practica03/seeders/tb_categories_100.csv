@@ -1,0 +1,101 @@
+ID,name,description,sup_id_category,status,creation_date,last_update
+1,Electrónica,Artículos electrónicos y de tecnología,,1,2025-01-18 19:00:00,2025-03-17 19:00:00
+2,Ropa y Moda,"Prendas de vestir, calzado y accesorios",,1,2025-01-29 22:00:00,2025-02-18 22:00:00
+3,Hogar y Cocina,"Artículos para el hogar, decoración y cocina",,1,2025-01-02 10:00:00,2025-01-10 10:00:00
+4,Deportes y Aire Libre,Equipamiento deportivo y actividades al aire libre,,1,2025-01-01 22:00:00,2025-02-07 22:00:00
+5,Belleza y Cuidado Personal,"Productos de cosmética, higiene y cuidado",,1,2025-01-04 20:00:00,2025-02-25 20:00:00
+6,Juguetes y Juegos,Juguetes para niños y juegos de mesa,,1,2025-01-12 11:00:00,2025-02-18 11:00:00
+7,Libros y Papelería,"Libros, cuadernos y suministros de oficina",,1,2025-01-05 18:00:00,2025-02-28 18:00:00
+8,Automotriz,Accesorios y repuestos para vehículos,,1,2025-01-31 14:00:00,2025-02-23 14:00:00
+9,Herramientas e Industria,Herramientas de bricolaje y equipo industrial,,1,2025-01-08 12:00:00,2025-01-28 12:00:00
+10,Salud y Bienestar,"Suplementos, equipo médico y bienestar",,1,2025-01-26 20:00:00,2025-03-27 20:00:00
+11,Alimentos y Bebidas,"Productos de abarrotes, bebidas y gourmet",,1,2025-01-18 22:00:00,2025-02-19 22:00:00
+12,Mascotas,Alimentos y accesorios para mascotas,,1,2025-01-30 10:00:00,2025-03-31 10:00:00
+13,Bebés y Maternidad,Productos para bebés y mujeres embarazadas,,1,2025-01-24 11:00:00,2025-02-28 11:00:00
+14,Videojuegos,"Consolas, juegos y accesorios gaming",,1,2025-01-28 18:00:00,2025-02-22 18:00:00
+15,Jardín y Exteriores,"Muebles de exterior, plantas y jardinería",,1,2025-01-06 16:00:00,2025-01-28 16:00:00
+16,Smartphones,Teléfonos inteligentes de diversas marcas,1,1,2025-03-13 13:00:00,2025-03-20 13:00:00
+17,Laptops,Computadoras portátiles para trabajo y juego,1,1,2025-04-04 13:00:00,2025-04-24 13:00:00
+18,Televisores,"Pantallas Smart TV, OLED y QLED",1,1,2025-04-11 21:00:00,2025-04-29 21:00:00
+19,Audio y Audífonos,"Auriculares, bocinas Bluetooth y barras de sonido",1,1,2025-02-05 21:00:00,2025-02-06 21:00:00
+20,Cámaras Fotográficas,"Cámaras DSLR, mirrorless y compactas",1,1,2025-02-24 18:00:00,2025-03-14 18:00:00
+21,Accesorios de Computación,"Teclados, ratones, monitores y cables",1,1,2025-03-14 10:00:00,2025-04-21 10:00:00
+22,Relojes Inteligentes,Smartwatches y pulseras de actividad,1,1,2025-04-03 20:00:00,2025-04-19 20:00:00
+23,Ropa para Hombre,"Camisas, pantalones y chaquetas masculinas",2,1,2025-04-01 19:00:00,2025-04-20 19:00:00
+24,Ropa para Mujer,"Vestidos, blusas y pantalones femeninos",2,1,2025-03-01 16:00:00,2025-03-08 16:00:00
+25,Calzado Deportivo,Tenis y zapatillas para deportes,2,1,2025-02-25 10:00:00,2025-03-21 10:00:00
+26,Calzado Casual,"Zapatos, sandalias y botas",2,1,2025-02-11 12:00:00,2025-03-04 12:00:00
+27,Accesorios de Moda,"Cinturones, sombreros y bufandas",2,1,2025-02-16 12:00:00,2025-03-08 12:00:00
+28,Bolsos y Mochilas,"Bolsos de mano, mochilas y maletas",2,1,2025-03-28 11:00:00,2025-04-04 11:00:00
+29,Joyería y Relojes,"Anillos, collares, pulseras y relojes",2,1,2025-03-31 17:00:00,2025-04-06 17:00:00
+30,Electrodomésticos,"Refrigeradores, lavadoras y microondas",3,1,2025-02-16 16:00:00,2025-03-10 16:00:00
+31,Muebles de Sala,"Sofás, mesas de centro y sillones",3,1,2025-02-22 12:00:00,2025-02-24 12:00:00
+32,Muebles de Dormitorio,"Camas, colchones y buroes",3,1,2025-02-03 12:00:00,2025-02-12 12:00:00
+33,Utensilios de Cocina,"Sartenes, ollas y cuchillos",3,1,2025-04-08 15:00:00,2025-04-27 15:00:00
+34,Decoración,"Cuadros, floreros y espejos",3,1,2025-03-29 20:00:00,2025-04-18 20:00:00
+35,Iluminación,"Lámparas de techo, pie y focos LED",3,1,2025-03-05 16:00:00,2025-04-08 16:00:00
+36,Organización del Hogar,Cajas de almacenamiento y estantes,3,1,2025-04-08 10:00:00,2025-04-22 10:00:00
+37,Fitness y Gimnasio,"Mancuernas, ligas y caminadoras",4,1,2025-03-28 13:00:00,2025-05-02 13:00:00
+38,Ciclismo,"Bicicletas, cascos y repuestos",4,1,2025-03-14 13:00:00,2025-04-22 13:00:00
+39,Camping y Senderismo,"Casas de campaña, mochilas y bolsas de dormir",4,1,2025-02-09 18:00:00,2025-02-16 18:00:00
+40,Fútbol,"Balones, tacos y camisetas de fútbol",4,1,2025-02-05 14:00:00,2025-03-06 14:00:00
+41,Natación,"Trajes de baño, antiparras y gorras",4,1,2025-03-31 10:00:00,2025-04-01 10:00:00
+42,Deportes de Raqueta,"Raquetas de tenis, pádel y bádminton",4,1,2025-04-05 16:00:00,2025-04-29 16:00:00
+43,Cuidado de la Piel,"Cremas faciales, limpidadores y protectores solares",5,1,2025-02-22 10:00:00,2025-02-25 10:00:00
+44,Maquillaje,"Bases, labiales y sombras de ojos",5,1,2025-02-13 19:00:00,2025-03-12 19:00:00
+45,Cuidado del Cabello,"Champús, acondicionadores y tratamientos",5,1,2025-02-27 21:00:00,2025-03-22 21:00:00
+46,Perfumes y Fragancias,Lociones y perfumes para hombre y mujer,5,1,2025-02-21 17:00:00,2025-03-31 17:00:00
+47,Higiene Personal,"Jabones, desodorantes y cuidado bucal",5,1,2025-03-15 16:00:00,2025-03-18 16:00:00
+48,Juegos de Mesa,"Juegos de estrategia, cartas y familiares",6,1,2025-03-07 19:00:00,2025-03-08 19:00:00
+49,Juguetes Educativos,Juegos para aprendizaje y desarrollo,6,1,2025-02-18 17:00:00,2025-03-06 17:00:00
+50,Figuras de Acción,Muñecos coleccionables y personajes,6,1,2025-03-08 11:00:00,2025-03-20 11:00:00
+51,Muñecas y Peluches,Muñecas articuladas y animales de peluche,6,1,2025-02-22 19:00:00,2025-03-23 19:00:00
+52,Construcción y Bloques,Sets de bloques para armar,6,1,2025-02-07 19:00:00,2025-03-03 19:00:00
+53,Ficción y Novelas,"Libros de literatura, misterio y ciencia ficción",7,1,2025-04-02 12:00:00,2025-04-05 12:00:00
+54,Desarrollo Personal,Libros de autoayuda y motivación,7,1,2025-02-04 18:00:00,2025-02-27 18:00:00
+55,Papelería de Oficina,"Hojas, carpetas, plumas y engrapadoras",7,1,2025-03-31 21:00:00,2025-05-02 21:00:00
+56,Arte y Manualidades,"Pinceles, pinturas y lienzos",7,1,2025-03-09 11:00:00,2025-03-15 11:00:00
+57,Accesorios Interiores,"Fundas de asiento, tapetes y soportes",8,1,2025-04-02 11:00:00,2025-05-08 11:00:00
+58,Iluminación Automotriz,"Faros LED, bombillas y luces de repuesto",8,0,2025-04-11 14:00:00,2025-04-15 14:00:00
+59,Limpieza y Cuidado,"Shampoo para auto, ceras y microfibras",8,0,2025-02-09 15:00:00,2025-02-20 15:00:00
+60,Llantas y Rines,Neumáticos para automóvil y camioneta,8,1,2025-04-01 19:00:00,2025-04-16 19:00:00
+61,Herramientas Manuales,"Martillos, destornilladores y llaves",9,1,2025-02-19 18:00:00,2025-02-25 18:00:00
+62,Herramientas Eléctricas,"Taladros, sierras y lijadoras",9,1,2025-03-26 10:00:00,2025-05-02 10:00:00
+63,Seguridad Industrial,"Cascos, guantes y chalecos de protección",9,1,2025-02-10 10:00:00,2025-02-11 10:00:00
+64,Suplementos Alimenticios,"Proteínas, vitaminas y minerales",10,1,2025-02-12 19:00:00,2025-03-02 19:00:00
+65,Equipos de Medición,"Baumanómetros, oxímetros y termómetros",10,1,2025-03-31 11:00:00,2025-04-03 11:00:00
+66,Cuidado Ortopédico,"Soportes musculares, fajas y plantillas",10,1,2025-03-06 21:00:00,2025-03-23 21:00:00
+67,Snacks y Dulces,"Chocolates, galletas y botanas",11,1,2025-02-15 19:00:00,2025-02-24 19:00:00
+68,Café y Té,"Café en grano, molido y infusiones",11,1,2025-02-28 18:00:00,2025-03-10 18:00:00
+69,Vinos y Licores,"Vinos tintos, blancos y bebidas espirituosas",11,1,2025-02-09 19:00:00,2025-03-05 19:00:00
+70,Aceites y Condimentos,"Aceite de oliva, especias y salsas",11,1,2025-02-26 11:00:00,2025-03-09 11:00:00
+71,Alimento para Perros,"Croquetas, sobres y premios para perro",12,1,2025-03-08 14:00:00,2025-03-22 14:00:00
+72,Alimento para Gatos,"Comida seca, húmeda y snacks para gato",12,1,2025-03-17 15:00:00,2025-04-12 15:00:00
+73,Juguetes para Mascotas,"Pelotas, rascadores y juguetes mordibles",12,1,2025-03-21 17:00:00,2025-04-16 17:00:00
+74,Higiene de Mascotas,"Shampoo, cepillos y arena para gato",12,1,2025-03-17 13:00:00,2025-04-17 13:00:00
+75,Pañales y Toallitas,Pañales desechables y toallitas húmedas,13,1,2025-03-02 18:00:00,2025-04-11 18:00:00
+76,Alimentación del Bebé,"Biberones, mamilas y procesadores de comida",13,1,2025-02-03 20:00:00,2025-02-27 20:00:00
+77,Coches y Sillas de Auto,Carriolas y asientos de seguridad,13,1,2025-02-08 15:00:00,2025-03-04 15:00:00
+78,Ropa de Bebé,"Mamelucos, mallas y accesorios infantiles",13,1,2025-04-05 10:00:00,2025-04-16 10:00:00
+79,Consolas de Videojuegos,"Consolas PS5, Xbox, Nintendo Switch",14,1,2025-02-01 11:00:00,2025-03-02 11:00:00
+80,Juegos para Consola,Títulos físicos y digitales,14,1,2025-02-08 22:00:00,2025-02-27 22:00:00
+81,Accesorios Gaming,"Mandos, audífonos gamer y sillas ergonómicas",14,1,2025-02-01 11:00:00,2025-02-11 11:00:00
+82,Plantas y Semillas,"Plantas de interior, exterior y macetas",15,1,2025-03-30 18:00:00,2025-04-11 18:00:00
+83,Muebles de Jardín,"Mesas de exterior, sombrillas y reposeras",15,1,2025-04-09 20:00:00,2025-05-15 20:00:00
+84,Riego y Mangueras,"Sistemas de riego, mangueras y aspersores",15,1,2025-02-04 19:00:00,2025-03-14 19:00:00
+85,Fundas para Smartphone,Fundas protectoras y carcasas,16,1,2025-04-19 19:00:00,2025-04-25 19:00:00
+86,Cargadores y Cables,Cargadores rápidos y cables USB-C,16,1,2025-06-30 21:00:00,2025-07-06 21:00:00
+87,Micas de Cristal Templado,Protectores de pantalla,16,1,2025-07-08 15:00:00,2025-07-15 15:00:00
+88,Laptops Gamer,Laptops con tarjetas gráficas dedicadas,17,1,2025-05-16 14:00:00,2025-05-17 14:00:00
+89,Laptops Ultrabooks,Laptops ligeras para productividad,17,1,2025-07-16 21:00:00,2025-07-28 21:00:00
+90,Televisores 4K,Pantallas de alta resolución 4K UHD,18,1,2025-07-03 19:00:00,2025-07-17 19:00:00
+91,Audífonos Inalámbricos,Audífonos TWS Bluetooth,19,1,2025-06-18 20:00:00,2025-06-26 20:00:00
+92,Camisas Formales,Camisas de vestir para hombre,23,1,2025-05-30 15:00:00,2025-06-19 15:00:00
+93,Pantalones Jeans Hombre,Jeans casuales de mezclilla,23,1,2025-07-17 15:00:00,2025-07-21 15:00:00
+94,Vestidos de Noche,Vestidos elegantes para fiestas,24,1,2025-04-13 19:00:00,2025-05-01 19:00:00
+95,Tenis de Running,Calzado especial para correr,25,1,2025-04-15 14:00:00,2025-04-20 14:00:00
+96,Freidoras de Aire,Electrodomésticos de cocina sin aceite,30,1,2025-06-15 10:00:00,2025-06-30 10:00:00
+97,Cafeteras Eléctricas,Cafeteras de goteo y espresso,30,1,2025-06-11 10:00:00,2025-06-15 10:00:00
+98,Mancuernas y Pesas,Mancuernas de hierro y ajustables,44,1,2025-05-19 20:00:00,2025-05-26 20:00:00
+99,Bicicletas de Montaña,Bicicletas MTB para terrenos difíciles,45,1,2025-06-30 15:00:00,2025-07-01 15:00:00
+100,Cremas Anti-Edad,Tratamientos antiarrugas y firmeza,50,1,2025-06-30 13:00:00,2025-07-18 13:00:00
