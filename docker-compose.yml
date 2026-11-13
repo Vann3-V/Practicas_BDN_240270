@@ -1,0 +1,49 @@
+name: docker-vanne
+version: '3.8'
+
+services:
+  postgres_vanesan:
+    image: postgres:15-alpine
+    container_name: postgres_vanesan
+    restart: always
+    environment:
+      POSTGRES_DB: db_vanesan
+      POSTGRES_USER: vanne_v
+      POSTGRES_PASSWORD: "240270!"
+    ports:
+      - "40270:5432"
+    volumes:
+      - postgres_data_vanesan:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_vanesan
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "240270@utxicotepec.edu.mx"
+      PGADMIN_DEFAULT_PASSWORD: "vanesan1234!"
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+    ports:
+      - "40271:80"
+    depends_on:
+      - postgres_vanesan
+
+  mysql_vanesan:
+    image: mysql:8.0
+    container_name: mysql_vanesan
+    restart: always
+    environment:
+      MYSQL_DATABASE: db_vanesan
+      MYSQL_USER: vanne_v
+      MYSQL_PASSWORD: "240270!"
+      MYSQL_ROOT_PASSWORD: "240270!"
+    ports:
+      - "40269:3306"
+    volumes:
+      - mysql_data_vanesan:/var/lib/mysql
+
+volumes:
+  postgres_data_vanesan:
+    driver: local
+  mysql_data_vanesan:
+    driver: local
